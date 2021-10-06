@@ -10,7 +10,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/NewConnection"
+        android:id="@+id/newConnection"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -27,14 +27,22 @@
         />
 
     <ImageView
-        android:id="@+id/Friends"
+        android:id="@+id/friends"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:layout_gravity="center"
         android:background="@drawable/circle"
-        tools:src="@drawable/friends_icon"
+        tools:src="@drawable/friends_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight=".1"
+        android:text="@string/MyFriends"
         />
+
 
 
 </LinearLayout>
